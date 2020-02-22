@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Personal CSS -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Icon near the title -->
+
+    <style>
+      body {
+        margin-top: 70px;
+        background: #333;
+        color: #fff;
+      }
+    </style>
+    <title>weight converter</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <h1 class="display-5 text-center">Weight Converter</h1>
+          <form>
+            <div class="form-group">
+              <input
+                type="number"
+                class="form-control form-control-lg"
+                id="lbsInput"
+                placeholder="Enter pounds...."
+              />
+            </div>
+          </form>
+          <div id="outPut" style="display: none;">
+          <div class="card bg-primary mb-2">
+            <div class="card-block">
+              <h4>Kilograms :</h4>
+              <div id="kilosOutput"></div>
+            </div>
+          </div>
+          <div class="card bg-success mb-2">
+            <div class="card-block">
+              <h4>grams :</h4>
+              <div id="gramsOutput"></div>
+            </div>
+          </div>
+          <div class="card bg-danger mb-2">
+            <div class="card-block">
+              <h4>Ounces :</h4>
+              <div id="ozOutput"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <script src="weight.js"></script>
+  </body>
+</html>
